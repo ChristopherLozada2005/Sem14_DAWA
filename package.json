@@ -1,0 +1,70 @@
+{
+  "name": "mi-proyecto-seo",
+  "version": "1.0.0",
+  "description": "Aplicación Next.js optimizada para SEO con meta tags dinámicos y sitemap automático",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "sitemap": "node scripts/generate-sitemap.js"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@next/font": "14.0.4",
+    "next-seo": "^6.4.0",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "typescript": "5.3.3",
+    "tailwindcss": "3.3.6",
+    "postcss": "8.4.32",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "cross-env": "^7.0.3",
+    "@next/bundle-analyzer": "^14.0.4",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "seo",
+    "optimization",
+    "web-development",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": {
+    "name": "Tu Nombre",
+    "email": "tu@email.com",
+    "url": "https://tu-sitio.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/mi-proyecto-seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/mi-proyecto-seo/issues"
+  },
+  "homepage": "https://mi-proyecto-seo.com",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
